@@ -5,7 +5,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
     <scenes>
-        <!--系统字体-->
+        <!--内置字体-->
         <scene sceneID="L9I-fx-wM1">
             <objects>
                 <tableViewController id="i3C-Bj-nMK" customClass="MyTableViewController" sceneMemberID="viewController">
@@ -52,7 +52,7 @@
                             <outlet property="delegate" destination="i3C-Bj-nMK" id="SEM-7G-0BL"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="系统字体" id="8Oz-mb-Jzk"/>
+                    <navigationItem key="navigationItem" title="内置字体" id="8Oz-mb-Jzk"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="d44-Ax-XFW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
