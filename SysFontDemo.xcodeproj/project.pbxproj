@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C951CEC1C4DE16D00402C07 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C951CEB1C4DE16D00402C07 /* Launch Screen.storyboard */; };
 		8CFED8481C34AA0300C083E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CFED8471C34AA0300C083E8 /* main.m */; };
 		8CFED84B1C34AA0300C083E8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CFED84A1C34AA0300C083E8 /* AppDelegate.m */; };
 		8CFED8511C34AA0300C083E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CFED84F1C34AA0300C083E8 /* Main.storyboard */; };
 		8CFED8531C34AA0300C083E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CFED8521C34AA0300C083E8 /* Assets.xcassets */; };
-		8CFED8561C34AA0300C083E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CFED8541C34AA0300C083E8 /* LaunchScreen.storyboard */; };
 		8CFED8611C34AA0300C083E8 /* SysFontDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CFED8601C34AA0300C083E8 /* SysFontDemoTests.m */; };
 		8CFED86C1C34AA0300C083E8 /* SysFontDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CFED86B1C34AA0300C083E8 /* SysFontDemoUITests.m */; };
 		8CFED87B1C34AAC500C083E8 /* MyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CFED87A1C34AAC500C083E8 /* MyTableViewController.m */; };
@@ -35,13 +35,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8C951CEB1C4DE16D00402C07 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		8CFED8431C34AA0300C083E8 /* SysFontDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SysFontDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CFED8471C34AA0300C083E8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8CFED8491C34AA0300C083E8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8CFED84A1C34AA0300C083E8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		8CFED8501C34AA0300C083E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8CFED8521C34AA0300C083E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8CFED8551C34AA0300C083E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8CFED8571C34AA0300C083E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8CFED85C1C34AA0300C083E8 /* SysFontDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SysFontDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CFED8601C34AA0300C083E8 /* SysFontDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SysFontDemoTests.m; sourceTree = "<group>"; };
@@ -107,7 +107,7 @@
 				8CFED87A1C34AAC500C083E8 /* MyTableViewController.m */,
 				8CFED84F1C34AA0300C083E8 /* Main.storyboard */,
 				8CFED8521C34AA0300C083E8 /* Assets.xcassets */,
-				8CFED8541C34AA0300C083E8 /* LaunchScreen.storyboard */,
+				8C951CEB1C4DE16D00402C07 /* Launch Screen.storyboard */,
 				8CFED8571C34AA0300C083E8 /* Info.plist */,
 				8CFED8461C34AA0300C083E8 /* Supporting Files */,
 			);
@@ -207,6 +207,7 @@
 				TargetAttributes = {
 					8CFED8421C34AA0300C083E8 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 275X96KVEB;
 					};
 					8CFED85B1C34AA0300C083E8 = {
 						CreatedOnToolsVersion = 7.2;
@@ -243,7 +244,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CFED8561C34AA0300C083E8 /* LaunchScreen.storyboard in Resources */,
+				8C951CEC1C4DE16D00402C07 /* Launch Screen.storyboard in Resources */,
 				8CFED8531C34AA0300C083E8 /* Assets.xcassets in Resources */,
 				8CFED8511C34AA0300C083E8 /* Main.storyboard in Resources */,
 			);
@@ -316,14 +317,6 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		8CFED8541C34AA0300C083E8 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8CFED8551C34AA0300C083E8 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -344,6 +337,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -366,6 +360,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "16234ea1-f254-4a7c-94e5-38da7b918e80";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -387,7 +382,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -402,6 +398,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "16234ea1-f254-4a7c-94e5-38da7b918e80";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -411,10 +408,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = SysFontDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.realank.SysFontDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "16234ea1-f254-4a7c-94e5-38da7b918e80";
 			};
 			name = Debug;
 		};
@@ -422,10 +423,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = SysFontDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.realank.SysFontDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "16234ea1-f254-4a7c-94e5-38da7b918e80";
 			};
 			name = Release;
 		};
